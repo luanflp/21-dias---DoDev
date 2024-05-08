@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.img-iphone {
+    width: 500px;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+main .div-principal h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+main .div-principal h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+main .div-principal p {
+    margin-bottom: 10px;
+}
+
+main .div-principal p {
+    color: #626262;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+main .div-principal button {
+    background-color: #0071e3;
+    border-radius: 20px;
+    color: #ffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+main .div-principal button:hover { 
+    background-color: #5dadfd;
+}
+
+main .div-principal h5 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+main .div-principal .content {
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+main .div-principal .content span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#azul {
+    background-color: #81A5C4;
+}
+
+#amarelo {
+    background-color: #F7DA47;
+}
+
+#branco {
+    background-color: #C1C1C1;
+}
+
+#preto {
+    background-color: #272D33;
+}
+
+#vermelho {
+    background-color: #B50012;
+}
+
+#roxo {
+    background-color: #EDE7F1;
+}
+
+.circle {
+    background-color: #81A5C4;
+    clip-path: circle(600px at right 1000px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: 2.5s ease-in-out circulo-aparece;
+}
