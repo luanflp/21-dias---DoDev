@@ -1,0 +1,34 @@
+* {
+    background-color: black;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+
+button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.iniciar {
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+}
+
+.pausar {
+    background-color: gray;
+}
+
+.parar {
+    background-color: red;
+}
